@@ -16,7 +16,7 @@
 			href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="/project/css/style.css" />
 		<title>Frontend Mentor | Easybank landing page</title>
 
 		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -31,6 +31,35 @@
 		</style>
 	</head>
 	<body>
+		<header class="header">
+			<div class="overlay"></div>
+			<nav class="flex flex-jc-sb flex-ai-c">
+				<a href="/" class="header__logo">
+					<img src="/project/images/logo.svg" alt="Easybank" />
+				</a>
+
+				<a
+					id="btnHamburger"
+					href="#"
+					class="header__menu hide-for-desktop"
+				>
+					<span></span>
+					<span></span>
+					<span></span>
+				</a>
+
+				<div class="header__links hide-for-mobile">
+					<a href="#">Home</a><a href="#">About</a
+					><a href="#">Contact</a><a href="#">Blog</a
+					><a href="#">Careers</a>
+				</div>
+
+				<a href="#" class="button header__cta hide-for-mobile"
+					>Request Invite</a
+				>
+			</nav>
+		</header>
+
 		Home About Contact Blog Careers Request Invite Next generation digital
 		banking Take your financial life online. Your Easybank account will be a
 		one-stop-shop for spending, saving, budgeting, investing, and much more.
@@ -65,6 +94,7 @@
 				>Frontend Mentor</a
 			>. Coded by <a href="#">Your Name Here</a>.
 		</div>
-		<script src="/app/js/script.js"></script>
+		-->
+		<script src="/project/app/js/script.js"></script>
 	</body>
 </html>
